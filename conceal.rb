@@ -1,8 +1,8 @@
 class Conceal < Formula
   desc "Simply store secrets in MacOS Keychain Access for use by Summon"
   homepage "https://github.com/infamousjoeg/conceal"
-  url "https://github.com/infamousjoeg/conceal/releases/download/v1.0.2-dev/conceal"
-  sha256 "a76028596f5044f93bd5e7a27edfee9ae02747fb89af6c1714a240225a94ce8f"
+  url "https://github.com/infamousjoeg/conceal/releases/download/v1.0.3-dev/conceal"
+  sha256 "a0b667d7b3cbb24bfe6c4ce359e6f34b8bec25b189fdd357649df20027a69f14"
   bottle :unneeded
 
   def install
