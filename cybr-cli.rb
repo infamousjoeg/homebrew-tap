@@ -4,15 +4,13 @@ class CybrCli < Formula
   url "https://github.com/infamousjoeg/cybr-cli/releases/download/v0.0.4-alpha/cybr"
   sha256 "ff684d03ebcfedb80683cd7cbe00d7da4013b5d6ffbe996062e2803d8b11188c"
   license "Apache-2.0"
+  bottle :unneeded
 
   def install
-    system "./configure", "--disable-debug",
-                          "--disable-dependency-tracking",
-                          "--disable-silent-rules",
-                          "--prefix=#{prefix}"
+    bin.install "cybr"
   end
 
   test do
-    system "false"
+    system "#{bin}/cybr-cli", "-v"
   end
 end
