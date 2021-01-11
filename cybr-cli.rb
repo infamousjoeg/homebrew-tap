@@ -1,8 +1,8 @@
 class CybrCli < Formula
-  desc "CyberArk Privileged Access Security (PAS) Command Line Interface (CLI)"
+  desc "CyberArk Privileged Access Security (PAS) Command-Line Interface (CLI)"
   homepage "https://github.com/infamousjoeg/cybr-cli"
-  url "https://github.com/infamousjoeg/cybr-cli/archive/v0.0.4-alpha.tar.gz"
-  sha256 "050ff47596234edd0397635d16b1c2ed1b4a41206641939bb7c6d18e78a7a8be"
+  url "https://github.com/infamousjoeg/cybr-cli/releases/download/v0.0.4-alpha/cybr"
+  sha256 "ff684d03ebcfedb80683cd7cbe00d7da4013b5d6ffbe996062e2803d8b11188c"
   license "Apache-2.0"
 
   def install
