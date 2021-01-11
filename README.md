@@ -6,7 +6,7 @@
 
 ```shell
 brew tap infamousjoeg/tap
-brew install conceal # or whatever you like
+brew install -s conceal # or whatever you like
 ```
 
 ## Maintainer
