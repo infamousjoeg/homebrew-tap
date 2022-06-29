@@ -6,7 +6,7 @@ class CybrCli < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/infamousjoeg/cybr-cli/releases/download/v0.1.11-beta/cybr-cli_darwin_arm64.tar.gz"
-      sha256 "bd4fa854b6c25cf127824cc659d920191f3814219c305ced3f52961ad0a3e760"
+      sha256 "fec5d44a300d74ff1a1de69452322a75f45bdf91e553385d2e5fd1cab8b8ad98"
 
       def install
         bin.install "cybr"
