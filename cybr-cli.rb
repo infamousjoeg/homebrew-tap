@@ -6,7 +6,7 @@ class CybrCli < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/infamousjoeg/cybr-cli/releases/download/v#{version}/cybr-cli_#{version}_darwin_arm64.tar.gz"
-      sha256 "54cfede9e7ba1bde80abe3b9b4e82f9ca2690304d901c77c6218cac236f5fa06"
+      sha256 "8f99f29e6ceb25872beecdf20de549bab8960669e38cb0feb67e196e7179301e"
 
       def install
         bin.install "cybr"
@@ -14,7 +14,7 @@ class CybrCli < Formula
     end
     if Hardware::CPU.intel?
       url "https://github.com/infamousjoeg/cybr-cli/releases/download/v#{version}/cybr-cli_#{version}_darwin_amd64.tar.gz"
-      sha256 "2534edb9f76e7de28089c027a96d0081d666dc0c49fcc337e7c8340322e9e709"
+      sha256 "f3ec8292319357166d194a24d68d0c3bd5e039460a643378d8a75a11ff288cbf"
 
       def install
         bin.install "cybr"
@@ -25,7 +25,7 @@ class CybrCli < Formula
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/infamousjoeg/cybr-cli/releases/download/v#{version}/cybr-cli_#{version}_linux_arm64.tar.gz"
-      sha256 "a87e7291b8e6898c83f5abfcdb5d4d9a975ccfa4e97fb5090afa142fe8dbff46"
+      sha256 "379868b2bb0adcfe1cb637079e95ff5179f378eff71737dbd5c345e87acbe201"
 
       def install
         bin.install "cybr"
@@ -33,7 +33,7 @@ class CybrCli < Formula
     end
     if Hardware:CPU.intel?
       url "https://github.com/infamousjoeg/cybr-cli/releases/download/v#{version}/cybr-cli_#{version}_linux_amd64.tar.gz"
-      sha256 "264bf96664425462106b53b085bc3aaba186a881fd2badde4d954bfc4c9f1cba"
+      sha256 "55ee474ef82c9186082d5c3699f47dfb74474c13089d75cec2d49b1600bc9391"
 
       def install
         bin.install "cybr"
