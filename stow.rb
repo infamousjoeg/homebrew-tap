@@ -3,7 +3,7 @@ class Stow < Formula
   homepage "https://github.com/infamousjoeg/stow"
   version "0.5.0"
   url "https://github.com/infamousjoeg/stow/archive/refs/tags/#{version}.tar.gz"
-  sha256 "84c7764ae8e918233bd708b3ba3f39810fd91b041bc3ad3a1ef256df8bf067a6"
+  sha256 "456a653cba3dae6b21d70311b57704621497c77146a608e1fdd874790cad2304"
   license "MIT"
 
   depends_on :macos
