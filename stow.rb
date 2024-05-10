@@ -2,7 +2,7 @@ class Stow < Formula
   desc "Command-line secrets manager for Summon (https://cyberark.github.io/summon) powered by the Keychain tools already available on macOS systems"
   homepage "https://github.com/infamousjoeg/stow"
   version "0.5.0"
-  url "https://github.com/loteoo/ks/archive/refs/tags/#{version}.tar.gz"
+  url "https://github.com/infamousjoeg/stow/archive/refs/tags/#{version}.tar.gz"
   sha256 "84c7764ae8e918233bd708b3ba3f39810fd91b041bc3ad3a1ef256df8bf067a6"
   license "MIT"
 
