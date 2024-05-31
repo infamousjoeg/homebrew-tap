@@ -1,7 +1,7 @@
 class Conceal < Formula
   desc "Simply manage secrets in MacOS Keychain Access"
   homepage "https://github.com/infamousjoeg/conceal"
-  version "4.0.0-release"
+  version "4.0.0"
 
   on_macos do
     url "https://github.com/infamousjoeg/conceal/releases/download/v#{version}-release/conceal_#{version}_darwin_universal.tar.gz"
