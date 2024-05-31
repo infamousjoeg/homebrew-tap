@@ -5,7 +5,7 @@ class Conceal < Formula
 
   on_macos do
     url "https://github.com/infamousjoeg/conceal/releases/download/v#{version}-release/conceal_#{version}_darwin_universal.tar.gz"
-    sha256 "4e1ef1abb913e57fee68a6c72298a982f45f753caf33925952c745f6a1d4b9eb"
+    sha256 "ffbdab34ec9f0cf93ae7f983f13b76b8c1f259d07f830adcc6444ac0770c06b4"
 
     def install
       bin.install "conceal"
