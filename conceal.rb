@@ -1,20 +1,18 @@
 class Conceal < Formula
-  desc "Simply store secrets in MacOS Keychain Access"
+  desc "Simply manage secrets in MacOS Keychain Access"
   homepage "https://github.com/infamousjoeg/conceal"
-  version "3.0.0-release"
+  version "4.0.0-release"
 
   on_macos do
-    if Hardware::CPU.intel?
-      url "https://github.com/infamousjoeg/conceal/releases/download/v#{version}/conceal"
-      sha256 "0faf46fda8c335f2edfd8ecc9f3f6bb0fefe453889f4d66e42256e9dfcb5ebc3"
+    url "https://github.com/infamousjoeg/conceal/releases/download/v#{version}-release/conceal_#{version}_darwin_universal.tar.gz"
+    sha256 "4e1ef1abb913e57fee68a6c72298a982f45f753caf33925952c745f6a1d4b9eb"
 
-      def install
-        bin.install "conceal"
-      end
+    def install
+      bin.install "conceal"
     end
   end
 
   test do
-    system "#{bin}/conceal", "-v"
+    system "#{bin}/conceal", "version"
   end
 end
