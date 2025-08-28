@@ -1,11 +1,11 @@
 class Conceal < Formula
   desc "Simply manage secrets in MacOS Keychain Access"
   homepage "https://github.com/infamousjoeg/conceal"
-  version "4.1.7"
+  version "4.1.8"
 
   on_macos do
-    url "https://github.com/infamousjoeg/conceal/archive/refs/tags/v4.1.7.tar.gz"
-    sha256 "601fb326ed3851fad27df5436eeab5273eaa2178a1315efd402454492f4792d3"
+    url "https://github.com/infamousjoeg/conceal/archive/refs/tags/v4.1.8.tar.gz"
+    sha256 "d6d1db0c3517be6f1bfc12746fa0342202feeef7efc82815245310ce3e257354"
 
     def install
       bin.install "conceal"
