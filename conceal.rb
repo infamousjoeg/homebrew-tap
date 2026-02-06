@@ -5,11 +5,11 @@ class Conceal < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/infamousjoeg/conceal/archive/refs/tags/v4.2.0.tar.gz"
-      sha256 "b466cacd87929c0517c1d0786c7892b5b4f8412259be817f36fbd8a87e36386f"
+      url "https://github.com/infamousjoeg/conceal/releases/download/v4.2.0/conceal_Darwin_arm64.tar.gz"
+      sha256 "bcb54082322bdac64077f4e0733c3f3f392b068f0cea9ed382a0048e3dfd06e8"
     else
-      url "https://github.com/infamousjoeg/conceal/releases/download/v4.1.0/conceal_Darwin_x86_64.tar.gz"
-      sha256 "53b54d220cf622c2d829e52c932d6fbbc94ae440b6c00528d04d989efb75ba97"
+      url "https://github.com/infamousjoeg/conceal/releases/download/v4.2.0/conceal_Darwin_x86_64.tar.gz"
+      sha256 "f0f65e5c6f8f36156e70fe9d6125f5b13cf8021733910682cbe4fdf39a7fc202"
     end
 
     def install
